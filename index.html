@@ -1,120 +1,112 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ZVG GARAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZVG GARAGE</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+        body{
+            background:#0b0b0b;
+            color:white;
+        }
 
-body{
-background:#0b0b0b;
-color:white;
-}
+        .hero{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            background:linear-gradient(135deg,#000,#1f1f1f,#000);
+            padding:20px;
+        }
 
-.hero{
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-text-align:center;
-background:linear-gradient(135deg,#000,#1f1f1f,#000);
-}
+        h1{
+            font-size:70px;
+            letter-spacing:4px;
+            color:#00ff88;
+            text-shadow:0 0 20px #00ff88;
+        }
 
-h1{
-font-size:70px;
-letter-spacing:4px;
-color:#00ff88;
-text-shadow:0 0 20px #00ff88;
-}
+        p{
+            margin-top:15px;
+            font-size:25px;
+            color:#ddd;
+        }
 
-p{
-margin-top:15px;
-font-size:25px;
-color:#ddd;
-}
+        .hero-image {
+            max-width: 85%;
+            height: auto;
+            border-radius: 20px;
+            margin: 35px 0;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
+        }
 
-button{
-margin-top:40px;
-padding:18px 45px;
-font-size:20px;
-border:none;
-border-radius:50px;
-background:#00ff88;
-cursor:pointer;
-transition:.3s;
-font-weight:bold;
-}
+        button{
+            margin-top:20px;
+            padding:18px 45px;
+            font-size:20px;
+            border:none;
+            border-radius:50px;
+            background:#00ff88;
+            color: #000;
+            cursor:pointer;
+            transition:.3s;
+            font-weight:bold;
+        }
 
-button:hover{
-transform:scale(1.1);
-box-shadow:0 0 25px #00ff88;
-}
+        button:hover{
+            transform:scale(1.1);
+            box-shadow:0 0 25px #00ff88;
+        }
 
-.servicii{
-padding:80px 20px;
-text-align:center;
-}
+        .servicii{
+            padding:80px 20px;
+            text-align:center;
+        }
 
-.card{
-background:#1b1b1b;
-padding:30px;
-margin:20px auto;
-max-width:400px;
-border-radius:20px;
-transition:.3s;
-}
+        .card{
+            background:#1b1b1b;
+            padding:30px;
+            margin:20px auto;
+            max-width:400px;
+            border-radius:20px;
+            transition:.3s;
+            font-size:22px;
+        }
 
-.card:hover{
-transform:translateY(-10px);
-box-shadow:0 0 20px #00ff88;
-}
-</style>
-
+        .card:hover{
+            transform:translateY(-10px);
+            box-shadow:0 0 20px #00ff88;
+        }
+    </style>
 </head>
 
 <body>
 
-<section class="hero">
+    <section class="hero">
+        <h1>ZVG GARAGE</h1>
+        <p>Premium Auto Detailing Iași</p>
+        
+        <img src="IMG_6976.jpeg" alt="ZVG Garage - Auto Detailing" class="hero-image">
+        
+        <button onclick="alert('În curând vei putea face programări! 🚗')">
+            Programează-te
+        </button>
+    </section>
 
-<h1>ZVG GARAGE</h1>
-
-<p>Premium Auto Detailing Iași</p>
-
-<button onclick="alert('În curând vei putea face programări! 🚗')">
-Programează-te
-</button>
-
-</section>
-
-<section class="servicii">
-
-<h1>Serviciile Noastre</h1>
-
-<div class="card">
-✨ Detailing Interior
-</div>
-
-<div class="card">
-🚗 Detailing Exterior
-</div>
-
-<div class="card">
-💎 Protecție Ceramică
-</div>
-
-<div class="card">
-🛞 Polish Profesional
-</div>
-
-</section>
-
-</body>
-</html>
+    <section class="servicii">
+        <h1>Serviciile Noastre</h1>
+        
+        <div class="card">✨ Detailing Interior</div>
+        <div class="card">🚗 Detailing Exterior</div>
+        <div class="card">💎 Protecție Ceramică</div>
+        <div class="card">🛞 Polish Profesional</div>
+    </section
