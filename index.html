@@ -63,4 +63,92 @@
         }
 
         button:hover{
-            transform:scale(1.08
+            transform:scale(1.08);
+            box-shadow:0 0 30px #ff1a1a;
+        }
+
+        .servicii{
+            padding:80px 20px;
+            text-align:center;
+        }
+
+        .card{
+            background:#1b1b1b;
+            padding:30px;
+            margin:20px auto;
+            max-width:400px;
+            border-radius:20px;
+            transition:.3s;
+            font-size:22px;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+            box-shadow:0 0 25px #ff1a1a;
+        }
+
+        /* Footer cu rețele sociale */
+        footer {
+            background: #111;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 28px;
+            margin: 0 15px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #ff1a1a;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <h1>ZVG GARAGE</h1>
+        <p>Premium Auto Detailing Iași</p>
+        
+        <img src="D862A622-A7FA-4830-8BC0-001F9453C36D.png" 
+             alt="ZVG Garage - Auto Detailing Iași" 
+             class="hero-image">
+        
+        <button onclick="alert('În curând vei putea face programări! 🚗')">
+            Programează-te
+        </button>
+    </section>
+
+    <section class="servicii">
+        <h1>Serviciile Noastre</h1>
+        
+        <div class="card">✨ Detailing Interior</div>
+        <div class="card">🚗 Detailing Exterior</div>
+        <div class="card">💎 Protecție Ceramică</div>
+        <div class="card">🛞 Polish Profesional</div>
+    </section>
+
+    <!-- Footer cu rețele sociale -->
+    <footer>
+        <p>&copy; 2026 ZVG GARAGE - Premium Auto Detailing Iași</p>
+        
+        <div class="social-links">
+            <a href="https://instagram.com/" target="_blank" title="Instagram">📷</a>
+            <a href="https://tiktok.com/" target="_blank" title="TikTok">🎵</a>
+        </div>
+        
+        <p style="margin-top:15px; font-size:14px; color:#888;">Urmărește-ne pentru mai multe before/after 🔥</p>
+    </footer>
+
+</body>
+</html>
